@@ -1,54 +1,66 @@
+/* style général*/
 body{
     font-family:sans-serif;
     background-color:#F8F1FF;
     min-height: 100vh;
-}
-header{
-    display: flex;
-    justify-content: space-around;
-    flex-direction: column;
-    background-color: #DECDF5;
-    background-size: 0%;
-    border-radius: 10px;
+    margin: 0;
 }
 
-nav{
-    justify-content: space-around;
+h1{
+    margin: 0;
+}
+
+h1, h2, h3{
+    color: #534D56;
 }
 
 .conteneur{
     display: flex;
     align-items: center;
-    gap: 16px;
-}
-span{
-    margin: 5px 5px 5px 15px;
-}
-
-.portrait{
-    border-radius: 75px;
-}
-
-#cartes{
-    display: flex;
-    justify-content:space-between;
-    align-items: center;
-    gap: 10px;
-    flex-direction: column;
+    gap: 20px;
 }
 
 img{
     max-width: 100%;
     height: auto;
 }
-.carte{
-    border: solid;
-    border-radius: 5px;
-    align-items: stretch;
+
+section{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+p{
+    text-align: justify;
+}
+
+/* Entête - navbar du site*/
+
+header{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    background-color: #DECDF5;
+}
+
+nav{
+    display: flex;
+    justify-content: safe;
+    padding: 0;
+}
+
+span{
+    margin: 5px 0px 0px 15px;
 }
 
 ul{
     list-style: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.portrait{
+    border-radius: 75px;
 }
 
 .btn-menu{
@@ -57,21 +69,42 @@ ul{
     background-color: #656176;
     color:white;
     font-weight: bold;
+    margin: auto;
 }
 
 .current{
     background-color: #1B998B;
 }
 
-figcaption{
-    font-size: 11px;
-}
 a{
     all: unset;
     cursor: pointer;
 }
 
-h1, h2, h3{
-    color: #534D56;
+/*style des cartes*/
+#cartes{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    gap: 10px;
+    flex-direction: column;
+}
+
+
+.carte{
+    border: solid;
+    border-radius: 5px;
+    align-items: stretch;
+}
+
+figcaption{
+    font-size: 11px;
+}
+/* styles du footer */
+footer{
+    margin-left: 0;
+    margin-right: 0;
+    padding: 5px;
+    background-color: #DECDF5;
 }
 
