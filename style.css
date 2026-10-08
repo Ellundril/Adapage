@@ -1,6 +1,6 @@
 /* style général*/
 :root {
-    font-size: 14px;
+    font-size: 16px;
 }
 * {
     box-sizing: border-box;
@@ -17,6 +17,10 @@ body{
 h1{
     margin: 0;
     font-size: 2rem;
+}
+
+h2{
+    font-size: 1.8rem;
 }
 
 h1, h2, h3{
@@ -75,6 +79,7 @@ ul{
 
 .portrait{
     border-radius: 75px;
+    height: 4em;
 }
 
 .btn-menu{
@@ -97,6 +102,20 @@ a{
     cursor: pointer;
 }
 
+a:focus-visible{
+    outline: 3px solid black;
+    outline-offset: 0.5rem;
+    border-radius: 3px;
+} 
+
+/* === Article de présentation === */
+.presentation-article{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
 /*style des cartes*/
 #cartes{
     display: flex;
@@ -106,7 +125,6 @@ a{
     flex-direction: column;
 }
 
-
 .carte{
     display: flex;
     border: solid;
@@ -114,6 +132,16 @@ a{
     border-radius: 5px;
     align-items: flex-start;
     background-color: #FFFBE3;
+}
+
+.carte img{
+    max-width: 5em;
+    min-height: 5em;
+    border-radius: 5px;
+}
+
+#cartes:first-child {
+    margin-top: 1rem;
 }
 
 figure{
@@ -133,11 +161,9 @@ footer{
     padding: 0.5rem;
     background-color:#31231E;
     color: #F8F1FF;
+    border-radius: 5px;
 }
 
-.carte img{
-    max-width: 5em;
-}
 
 /* adaptation écran moyen style tablette */
 @media screen and (min-width: 768px) {
@@ -170,9 +196,12 @@ footer{
         margin: 0 auto;
     }
 
+
     .carte{
+        flex-direction: column;
+        text-align: center;
         width: calc((100% - 4rem) / 4);
-        height: 80vh;
+        height: 100vh;
     }
 }
 
