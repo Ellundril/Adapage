@@ -34,7 +34,8 @@ Les pages sont accessibles via le menu de la barre de navigation qui comporte 3 
 
 ## Si j'avais plus de temps
 
-> Avec des si on mettrait Paris en bouteille
+> "Avec des si on mettrait Paris en bouteille ;)"
+1. J'essaierai de faire les bonus que je n'ai pas fait !
 
 
 
