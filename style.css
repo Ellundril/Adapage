@@ -35,14 +35,6 @@ h1, h2{
     text-align: center;
 }
 
-.conteneur{
-    display: flex;
-    align-items: center;
-    gap: 2rem;
-    justify-content: center;
-}
-
-
 img{
     max-width: 100%;
     height: auto;
@@ -75,12 +67,19 @@ header{
     justify-content: center;
 }
 
+.conteneur-menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    gap: 0.5rem;
+}
+/*
 nav{
     display: flex;
     padding: 0;
     justify-content: center;
     
-}
+}*/
 
 ul{
     list-style: none;
@@ -98,15 +97,17 @@ ul{
 
 .btn-menu{
     border-radius: 10px;
-    padding: 1rem;
+    padding: 0.8rem;
     background-color: #5A3A31;
     color:white;
     font-weight: bold;
     margin: auto;
+    width: 75%;
+    text-align: center;
 }
 /* Permet de mettre en couleur l'onglet du menu sur lequel on est actuellement*/
 .current{
-    background-color: #E3D888;
+    background-color: #F4FADF;
     color: #31231E;
     font-weight: bold;
 }
@@ -173,6 +174,18 @@ figure{
     margin: 0.5rem;
 }
 
+/*  === styles page citation === */
+
+.citation{
+    font-size: 2rem;
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;
+}
+.auteur{
+    margin-right: 3rem;
+    text-align:right;
+    font-family: 'Courier New', Courier, monospace;
+}
 
 /* === styles et disposition du footer === */
 footer{
@@ -195,9 +208,17 @@ footer{
 @media screen and (min-width: 768px) {
     header {
         flex-direction: row;
-        justify-content: space-between;
+        justify-content:space-between;
     }
 
+    .conteneur-menu{
+        flex-direction: row;
+        justify-content: stretch;
+    }
+    
+    .btn-menu{
+        min-width: max-content;
+    }
     #cartes {
         flex-direction: row;
         flex-wrap: wrap;
