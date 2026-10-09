@@ -20,15 +20,17 @@ Sa devise :
 Le site est écrit simplement en `html` et `css`. 
 
 ### Structure
-Il comporte 2 pages :
+Il comporte 3 pages :
 - La page **Présentation** : [index.html](index.html)
 - La page **Ses exploits** : [cartes.html](cartes.html)
+- La page **Citation** : [citation.html](citation.html)
 
 Il possède une feuille de style : [style.css](style.css)
 
-Les pages sont accessibles via le menu de la barre de navigation qui comporte 2 boutons :
+Les pages sont accessibles via le menu de la barre de navigation qui comporte 3 boutons :
 - Présentation
 - Ses exploits
+- Citation
 
 ## Si j'avais plus de temps
 

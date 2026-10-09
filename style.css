@@ -73,13 +73,7 @@ header{
     justify-content: stretch;
     gap: 0.5rem;
 }
-/*
-nav{
-    display: flex;
-    padding: 0;
-    justify-content: center;
-    
-}*/
+
 
 ul{
     list-style: none;
@@ -185,6 +179,7 @@ figure{
     margin-right: 3rem;
     text-align:right;
     font-family: 'Courier New', Courier, monospace;
+    font-size: 1.4rem;
 }
 
 /* === styles et disposition du footer === */
