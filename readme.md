@@ -11,6 +11,11 @@ Sa devise :
 
 ## Fonctionnement du site
 
+1. Ouvrir le dossier adapage dans vscode.
+2. Ouvrir le fichier html : [index.html](index.html)
+3. Lancer live server en cliquant sur Go live en bas à droite de l'écran vscode.
+4. Tu peux maintenant naviguer sur les deux pages du site en cliquant sur les boutons du menu ou en te déplaçant avec la touche "tab".
+
 ### Langage
 Le site est écrit simplement en `html` et `css`. 
 
