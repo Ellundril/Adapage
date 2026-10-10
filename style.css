@@ -151,10 +151,18 @@ a:focus-visible{
 }
 
 /* === style et disposition frise chronologique === */
+.separateur{
+    width: 33%;
+    height: 2px;
+    background-color: #31231E;
+    border-radius: 10px;
+
+    margin: 2rem auto;
+}
 .titre-frise{
     text-align: center;
     font-family: "Special Elite", system-ui;
-    margin-top: 1rem;
+    margin-bottom: 1.5rem;
 }
 
 .frise{
@@ -193,7 +201,6 @@ a:focus-visible{
 .evenement{
     max-height: min-content;
     margin-top: 0;
-    margin-bottom: 0;
 }
 
 /* === style des cartes et disposition === */
@@ -296,15 +303,15 @@ footer{
         flex-wrap: wrap;
         margin: auto 3rem;
     }
-    
     .elements-frise{
         flex-direction: column;
         max-width: 80px;
+         margin-bottom: 1.5rem;
     }
 
     .lien-frise{
         height: 0.5px;
-        width: 80px;
+        width: 60px;
         margin-top: 1.7rem;
         margin-left: 0;
     }
