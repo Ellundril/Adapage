@@ -203,6 +203,20 @@ a:focus-visible{
     margin-top: 0;
 }
 
+/* === vidéo === */
+.video{
+    margin: 1rem auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.video iframe{
+    width: 375px;
+    height: 211px;
+}
+
 /* === style des cartes et disposition === */
 
 #cartes{
@@ -315,6 +329,12 @@ footer{
         margin-top: 1.7rem;
         margin-left: 0;
     }
+
+    .video iframe{
+    width: 560px;
+    height: 315px;
+}
+
     
 }
 
