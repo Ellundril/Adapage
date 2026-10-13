@@ -7,6 +7,7 @@ Ce projet a pour objectif de présenter une personnalité inspirante : Marie Mar
 J'ai choisi cette personnalité pour plusieurs raisons. La première c'est que c'est une femme et qu'on ne met pas souvent les femmes à l'honneur. La deuxième c'est qu'elle a fait tellement de choses incroyables qu'elle gagnerait à être davantage connue. Elle fait rarement partie des femmes célèbres que l'on cite(sauf dans les régions dont elle vient) et pourtant sa vie a été extrêmement riche. L'idée ici est donc de la faire connaître davantage.
 
 Sa devise :
+
 >Savoir vouloir, c'est pouvoir !
 
 ## Fonctionnement du site
@@ -14,7 +15,7 @@ Sa devise :
 1. Ouvrir le dossier adapage dans vscode.
 2. Ouvrir le fichier html : [index.html](index.html)
 3. Lancer live server en cliquant sur Go live en bas à droite de l'écran vscode.
-4. Tu peux maintenant naviguer sur les deux pages du site en cliquant sur les boutons du menu ou en te déplaçant avec la touche "tab".
+4. Tu peux maintenant naviguer sur les trois pages du site en cliquant sur les boutons du menu ou en te déplaçant avec la touche "tab".
 
 ### Langage
 Le site est écrit simplement en `html` et `css`. 
@@ -31,6 +32,9 @@ Les pages sont accessibles via le menu de la barre de navigation qui comporte 3 
 - Présentation
 - Ses exploits
 - Citation
+
+### Mode sombre 
+Tu peux choisir de passer le site en mode sombre en cochant la case labellisée "mode sombre" située en dessous du menu. 
 
 ## Si j'avais plus de temps
 
