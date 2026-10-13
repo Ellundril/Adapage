@@ -71,7 +71,7 @@ header{
     display: flex;
     justify-content: space-around;
     flex-direction: column;
-    background-color: #84714F;
+    background-color:#bcad94;
     border-radius: 5px;
     padding: 0.5rem 1rem;
 }
@@ -100,6 +100,7 @@ ul{
 .portrait{
     border-radius: 75px;
     height: 4em;
+    margin: 0.8rem;
 }
 
 #mode_sombre{
@@ -271,12 +272,18 @@ figure{
 }
 
 /*  === styles page citation === */
-
+.conteneur-citation{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 .citation{
     font-size: 2rem;
     font-family: "Story Script", sans-serif;
     font-weight: 400;
     text-align: center;
+    min-height: max-content;
 }
 .auteur{
     margin-right: 3rem;
@@ -354,6 +361,11 @@ header:has(#mode_sombre:checked) .current{
     header {
         flex-direction: row;
         justify-content:space-between;
+    }
+
+    main{
+        min-height: calc(100vh - 11.6rem);
+        margin: auto 0;
     }
 
     .conteneur-menu{
