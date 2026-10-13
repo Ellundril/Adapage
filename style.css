@@ -102,6 +102,26 @@ ul{
     height: 4em;
 }
 
+#mode_sombre{
+    height: 1.5rem;
+    width: 1.5rem;
+    accent-color: #5A3A31;
+}
+
+.case-mode{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color:#E3D888;
+    background-color: none;
+}
+
+.case-mode label{
+    color:#31231E;
+}
+
+
 /* === style des boutons du menu === */
 
 .btn-menu{
@@ -278,6 +298,53 @@ footer{
     color: #F8F1FF;
     border-radius: 5px;
 }
+
+/* === Mode sombre === */
+body:has(#mode_sombre:checked){
+    background-color: #31231E;
+    color:#F4FADF;
+}
+header:has(#mode_sombre:checked) +main h2{
+    color:#F4FADF;
+}
+header:has(#mode_sombre:checked)+ main .separateur{
+    background-color: #F4FADF;
+}
+
+header:has(#mode_sombre:checked)+main .date{
+    color:#F4FADF;
+    background-color: #31231E;
+    border-color: #E3D888;
+}
+
+header:has(#mode_sombre:checked)+main .lien-frise{
+background-color: #E3D888;
+}
+
+header:has(#mode_sombre:checked)+main .carte{
+    background-color: #31231E;
+    border-color: #E3D888;
+}
+
+header:has(#mode_sombre:checked){
+    background-color: #31231E;
+}
+
+header:has(#mode_sombre:checked) h1{
+    color:#F4FADF;
+}
+
+header:has(#mode_sombre:checked) .btn-menu{
+    background-color:#F4FADF;
+    color:#31231E;
+}
+
+header:has(#mode_sombre:checked) .current{
+    text-decoration: underline;
+}
+
+
+
 
 
 
