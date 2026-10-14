@@ -26,6 +26,10 @@ body{
     font-size: 1rem;
 }
 
+.conteneur-citation{
+        min-height: calc(100vh - 27rem);
+}
+
 section{
     margin: 0 1rem;
 }
@@ -272,7 +276,7 @@ figure{
 }
 
 /*  === styles page citation === */
-.conteneur-citation{
+.conteneur-main{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -311,6 +315,10 @@ body:has(#mode_sombre:checked){
     background-color: #31231E;
     color:#F4FADF;
 }
+
+body:has(#mode_sombre:checked) footer{
+    border: solid #E3D888;
+}
 header:has(#mode_sombre:checked) +main h2{
     color:#F4FADF;
 }
@@ -335,6 +343,7 @@ header:has(#mode_sombre:checked)+main .carte{
 
 header:has(#mode_sombre:checked){
     background-color: #31231E;
+    border: solid #E3D888;
 }
 
 header:has(#mode_sombre:checked) h1{
@@ -356,14 +365,14 @@ header:has(#mode_sombre:checked) .current{
 
 
 
-/* adaptation écran moyen style tablette */
+/* === adaptation écran moyen style tablette === */
 @media screen and (min-width: 768px) {
     header {
         flex-direction: row;
         justify-content:space-between;
     }
 
-    main{
+    .conteneur-main{
         min-height: calc(100vh - 11.6rem);
         margin: auto 0;
     }
@@ -417,7 +426,7 @@ header:has(#mode_sombre:checked) .current{
     
 }
 
-/* adaptation grand écran desktop */
+/* === adaptation grand écran desktop === */
 @media screen and (min-width: 1024px) {
     body {
         max-width: 1100px;

@@ -34,12 +34,19 @@ Les pages sont accessibles via le menu de la barre de navigation qui comporte 3 
 - Citation
 
 ### Mode sombre 
-Tu peux choisir de passer le site en mode sombre en cochant la case labellisée "mode sombre" située en dessous du menu. 
+Tu peux choisir de passer le site en mode sombre en cochant la case labellisée "mode sombre" située en dessous/ou à côté du menu. 
+
+## Rapport Lighthouse
+
+- index : accessibilité 100
+- Ses exploits : accessibilité 100
+- Citation : accessibilité 100
 
 ## Si j'avais plus de temps
 
-> "Avec des si on mettrait Paris en bouteille ;)"
-1. J'essaierai de faire les bonus que je n'ai pas fait !
+1. J'essaierai de faire en sorte que le mode sombre reste activé si on change de page
+2. Je pourrai rajouter des animations notamment sur le menu
+
 
 
 
