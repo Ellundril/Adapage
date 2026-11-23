@@ -26,9 +26,9 @@ body{
     font-size: 1rem;
 }
 
-.conteneur-citation{
-        min-height: calc(100vh - 27rem);
-}
+/*.conteneur-citation{ 
+    min-height: calc(100vh - 27rem);
+}*/
 
 section{
     margin: 0 1rem;
